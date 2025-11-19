@@ -18,16 +18,12 @@
       <Mac SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Mac.zip</Mac>
       <Linux SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Linux.zip</Linux>
     </Links>
-    <Dependencies>
-      <!-- 如果需要其他Mod，在这里列出 -->
-    </Dependencies>
     <Repository>https://github.com/example/mod</Repository>
+    <Dependencies />
     <Tags>
       <Tag>Gameplay</Tag>
     </Tags>
-    <Integrations>
-      <!-- 与哪些Mod有集成支持 -->
-    </Integrations>
+    <Integrations />
   </Manifest>
   <Manifest>
     <Name>AABExampleMod</Name>
@@ -41,15 +37,11 @@
       <Mac SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Mac.zip</Mac>
       <Linux SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Linux.zip</Linux>
     </Links>
-    <Dependencies>
-      <!-- 如果需要其他Mod，在这里列出 -->
-    </Dependencies>
     <Repository>https://github.com/example/mod</Repository>
+    <Dependencies />
     <Tags>
       <Tag>Gameplay</Tag>
     </Tags>
-    <Integrations>
-      <!-- 与哪些Mod有集成支持 -->
-    </Integrations>
+    <Integrations />
   </Manifest>
 </ModLinks>
