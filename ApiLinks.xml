@@ -19,9 +19,9 @@
       <File>doorstop_config.ini</File>
     </Files>
     <Links>
-      <Windows SHA256="CALCULATE_THIS_HASH">https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip</Windows>
-      <Mac SHA256="CALCULATE_THIS_HASH">https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_macos_x64_5.4.23.2.zip</Mac>
-      <Linux SHA256="CALCULATE_THIS_HASH">https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_linux_x64_5.4.23.2.zip</Linux>
+      <Windows SHA256="F752CE4E838F4C305B9DA1404B6745F2CFF23B8BFD494F79F0C84D0A01F59B46">https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip</Windows>
+      <Mac SHA256="BC724642AE54C31B9AB8E7D5B2AE5DAFFEF0201A7349D78FCD43A7D4CBB8DBBF">https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_macos_x64_5.4.23.2.zip</Mac>
+      <Linux SHA256="DDC446143A0A277ED92EB7A1F5BF794FF4FDD0023BDDC0491F85EAFD1898225B">https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_linux_x64_5.4.23.2.zip</Linux>
     </Links>
   </Manifest>
 </ApiLinks>
