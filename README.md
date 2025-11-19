@@ -7,9 +7,6 @@
 - **ModLinks.xml**: Mod索引文件，包含所有可用Mod的信息
 - **ApiLinks.xml**: BepInEx索引文件，包含BepInEx下载链接和配置
 
-## 🚀 如何提交Mod
-
-请参阅 [Chrysalis仓库中的提交指南](https://github.com/StarDream2736/Chrysalis/blob/main/ModLinks/ModLinks仓库建立和提交规范.md)
 
 ## 📋 XML格式规范
 
@@ -35,10 +32,6 @@
   </Tags>
 </Manifest>
 ```
-
-## 🔒 安全性
-
-所有Mod文件都通过SHA256哈希验证，确保文件完整性和安全性。
 
 ## 📞 联系方式
 
