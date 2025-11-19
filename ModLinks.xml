@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModLinks xmlns="https://github.com/silksong-modding/modlinks">
+  <!-- 
+    空洞骑士：丝之歌 Mod索引
+    维护者: StarDream
+    最后更新: 2025-11-19
+  -->
+  
+  <!-- 示例Mod - 请在添加实际Mod时删除 -->
+  <Manifest>
+    <Name>ExampleMod</Name>
+    <Description>一个示例Mod，展示ModLinks格式</Description>
+    <Version>1.0.0</Version>
+    <Authors>
+      <Author>YourName</Author>
+    </Authors>
+    <Links>
+      <Windows SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Windows.zip</Windows>
+      <Mac SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Mac.zip</Mac>
+      <Linux SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Linux.zip</Linux>
+    </Links>
+    <Dependencies>
+      <!-- 如果需要其他Mod，在这里列出 -->
+    </Dependencies>
+    <Repository>https://github.com/example/mod</Repository>
+    <Tags>
+      <Tag>Gameplay</Tag>
+    </Tags>
+    <Integrations>
+      <!-- 与哪些Mod有集成支持 -->
+    </Integrations>
+  </Manifest>
+  
+</ModLinks>

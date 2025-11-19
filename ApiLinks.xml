@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApiLinks xmlns="https://github.com/silksong-modding/modlinks">
+  <!-- BepInEx 5.4.23.2 配置 -->
+  <Manifest>
+    <Version>5</Version>
+    <Files>
+      <File>BepInEx/core/BepInEx.dll</File>
+      <File>BepInEx/core/0Harmony.dll</File>
+      <File>BepInEx/core/BepInEx.Preloader.dll</File>
+      <File>BepInEx/core/HarmonyXInterop.dll</File>
+      <File>BepInEx/core/Mono.Cecil.dll</File>
+      <File>BepInEx/core/Mono.Cecil.Mdb.dll</File>
+      <File>BepInEx/core/Mono.Cecil.Pdb.dll</File>
+      <File>BepInEx/core/Mono.Cecil.Rocks.dll</File>
+      <File>BepInEx/core/MonoMod.RuntimeDetour.dll</File>
+      <File>BepInEx/core/MonoMod.Utils.dll</File>
+      <File>BepInEx/LogOutput.log</File>
+      <File>winhttp.dll</File>
+      <File>doorstop_config.ini</File>
+    </Files>
+    <Links>
+      <Windows SHA256="CALCULATE_THIS_HASH">https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip</Windows>
+      <Mac SHA256="CALCULATE_THIS_HASH">https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_macos_x64_5.4.23.2.zip</Mac>
+      <Linux SHA256="CALCULATE_THIS_HASH">https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_linux_x64_5.4.23.2.zip</Linux>
+    </Links>
+  </Manifest>
+</ApiLinks>

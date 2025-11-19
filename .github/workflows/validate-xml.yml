@@ -1,0 +1,47 @@
+name: Validate XML
+
+on:
+  pull_request:
+    paths:
+      - '*.xml'
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install xmllint
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+      
+      - name: Validate XML Syntax
+        run: |
+          xmllint --noout ModLinks.xml
+          xmllint --noout ApiLinks.xml
+          
+      - name: Check XML Structure
+        run: |
+          echo "Checking ModLinks.xml structure..."
+          if ! grep -q '<ModLinks xmlns="https://github.com/silksong-modding/modlinks">' ModLinks.xml; then
+            echo "Error: Invalid namespace in ModLinks.xml"
+            exit 1
+          fi
+          
+          echo "Checking ApiLinks.xml structure..."
+          if ! grep -q '<ApiLinks xmlns="https://github.com/silksong-modding/modlinks">' ApiLinks.xml; then
+            echo "Error: Invalid namespace in ApiLinks.xml"
+            exit 1
+          fi
+          
+      - name: Validate SHA256 Format
+        run: |
+          echo "Validating SHA256 hashes..."
+          # 检查SHA256格式（64位十六进制字符）
+          if grep -P 'SHA256="(?![A-Fa-f0-9]{64}")[^"]*"' ModLinks.xml ApiLinks.xml; then
+            echo "Error: Invalid SHA256 hash format found"
+            exit 1
+          fi
+          echo "All SHA256 hashes are valid format"
