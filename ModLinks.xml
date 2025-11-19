@@ -8,7 +8,7 @@
   
   <!-- 示例Mod - 请在添加实际Mod时删除 -->
   <Manifest>
-    <Name>ExampleMod</Name>
+    <Name>AAAExampleMod</Name>
     <Description>一个示例Mod，展示ModLinks格式</Description>
     <Version>1.0.0</Version>
     <Authors>
