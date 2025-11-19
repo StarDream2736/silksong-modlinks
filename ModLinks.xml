@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModLinks xmlns="https://github.com/silksong-modding/modlinks">
+<ModLinks xmlns="https://github.com/StarDream2736/silksong-modlinks">
   <!-- 
     空洞骑士：丝之歌 Mod索引
     维护者: StarDream
@@ -18,12 +18,16 @@
       <Mac SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Mac.zip</Mac>
       <Linux SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Linux.zip</Linux>
     </Links>
+    <Dependencies>
+      <!-- 如果需要其他Mod，在这里列出 -->
+    </Dependencies>
     <Repository>https://github.com/example/mod</Repository>
-    <Dependencies />
     <Tags>
       <Tag>Gameplay</Tag>
     </Tags>
-    <Integrations />
+    <Integrations>
+      <!-- 与哪些Mod有集成支持 -->
+    </Integrations>
   </Manifest>
   <Manifest>
     <Name>AABExampleMod</Name>
@@ -37,11 +41,15 @@
       <Mac SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Mac.zip</Mac>
       <Linux SHA256="0000000000000000000000000000000000000000000000000000000000000000">https://github.com/example/mod/releases/download/v1.0.0/ExampleMod-Linux.zip</Linux>
     </Links>
+    <Dependencies>
+      <!-- 如果需要其他Mod，在这里列出 -->
+    </Dependencies>
     <Repository>https://github.com/example/mod</Repository>
-    <Dependencies />
     <Tags>
       <Tag>Gameplay</Tag>
     </Tags>
-    <Integrations />
+    <Integrations>
+      <!-- 与哪些Mod有集成支持 -->
+    </Integrations>
   </Manifest>
 </ModLinks>

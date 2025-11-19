@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ApiLinks xmlns="https://github.com/StarDream2736/silksong-modlinks">
+<ApiLinks xmlns="https://github.com/silksong-modding/modlinks">
   <!-- BepInEx 5.4.23.2 配置 -->
   <Manifest>
     <Version>5</Version>
