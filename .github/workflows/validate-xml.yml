@@ -25,13 +25,13 @@ jobs:
       - name: Check XML Structure
         run: |
           echo "Checking ModLinks.xml structure..."
-          if ! grep -q '<ModLinks xmlns="https://github.com/silksong-modding/modlinks">' ModLinks.xml; then
+          if ! grep -q '<ModLinks xmlns="https://github.com/StarDream2736/silksong-modlinks">' ModLinks.xml; then
             echo "Error: Invalid namespace in ModLinks.xml"
             exit 1
           fi
           
           echo "Checking ApiLinks.xml structure..."
-          if ! grep -q '<ApiLinks xmlns="https://github.com/silksong-modding/modlinks">' ApiLinks.xml; then
+          if ! grep -q '<ApiLinks xmlns="https://github.com/StarDream2736/silksong-modlinks">' ApiLinks.xml; then
             echo "Error: Invalid namespace in ApiLinks.xml"
             exit 1
           fi
